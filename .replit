@@ -1,0 +1,9 @@
+run = "bash main.sh"
+
+[nix]
+channel = "stable-22_11"
+
+entrypoint = "index.php"
+
+[gitHubImport]
+requiredFiles = [".replit","replit.nix"]

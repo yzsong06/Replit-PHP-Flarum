@@ -1,0 +1,63 @@
+230704 23:27:17 mysqld_safe Starting mariadbd daemon with databases from /home/runner/Flarum/data
+2023-07-04 23:27:18 0 [Note] /nix/store/83vs3hbhf61w6azvp6jkllvsmhwhikxf-mariadb-server-10.6.10/bin/mariadbd (server 10.6.10-MariaDB) starting as process 4292 ...
+2023-07-04 23:27:18 0 [Warning] Could not increase number of max_open_files to more than 20971 (request: 32194)
+2023-07-04 23:27:18 0 [Note] InnoDB: The first data file './ibdata1' did not exist. A new tablespace will be created!
+2023-07-04 23:27:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-07-04 23:27:18 0 [Note] InnoDB: Number of pools: 1
+2023-07-04 23:27:18 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-07-04 23:27:18 0 [Note] InnoDB: Using liburing
+2023-07-04 23:27:18 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2023-07-04 23:27:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-07-04 23:27:18 0 [Note] InnoDB: Setting file './ibdata1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-07-04 23:27:18 0 [Note] InnoDB: File './ibdata1' size is now 12 MB.
+2023-07-04 23:27:18 0 [Note] InnoDB: Setting log file ./ib_logfile101 size to 8388608 bytes
+2023-07-04 23:27:18 0 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+2023-07-04 23:27:18 0 [Note] InnoDB: New log file created, LSN=10313
+2023-07-04 23:27:18 0 [Note] InnoDB: Doublewrite buffer not found: creating new
+2023-07-04 23:27:18 0 [Note] InnoDB: Doublewrite buffer created
+2023-07-04 23:27:18 0 [Note] InnoDB: 128 rollback segments are active.
+2023-07-04 23:27:18 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-07-04 23:27:18 0 [Note] InnoDB: Setting file './ibtmp1' size to 1 MB. Physically writing the file full; Please wait ...
+2023-07-04 23:27:18 0 [Note] InnoDB: File './ibtmp1' size is now 1 MB.
+2023-07-04 23:27:18 0 [Note] InnoDB: 10.6.10 started; log sequence number 0; transaction id 3
+2023-07-04 23:27:18 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/plugin'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/servers'
+2023-07-04 23:27:18 0 [Note] Server socket created on IP: '127.0.0.1'.
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/db'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/proxies_priv'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/roles_mapping'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/global_priv'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/time_zone_leap_second'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/time_zone_name'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/time_zone'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/time_zone_transition_type'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/time_zone_transition'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/tables_priv'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/columns_priv'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/procs_priv'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/func'
+2023-07-04 23:27:18 0 [Note] Zerofilling moved table:  './mysql/event'
+2023-07-04 23:27:18 0 [ERROR] Incorrect definition of table mysql.event: expected column 'definer' at position 3 to have type varchar(, found type char(141).
+2023-07-04 23:27:18 0 [ERROR] mariadbd: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2023-07-04 23:27:18 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2023-07-04 23:27:18 0 [Note] /nix/store/83vs3hbhf61w6azvp6jkllvsmhwhikxf-mariadb-server-10.6.10/bin/mariadbd: ready for connections.
+Version: '10.6.10-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-07-04 23:27:25 3 [ERROR] InnoDB: Table mysql.innodb_table_stats not found.
+2023-07-04 23:27:26 3 [Note] InnoDB: Recalculation of persistent statistics requested for table `mysql`.`fl_posts` index `fl_posts_type_index` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2023-07-04 23:27:26 3 [Note] InnoDB: Recalculation of persistent statistics requested for table `mysql`.`fl_posts` index `fl_posts_type_created_at_index` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2023-07-04 23:27:26 3 [Note] InnoDB: Recalculation of persistent statistics requested for table `mysql`.`fl_flags` index `fl_flags_created_at_index` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2023-07-04 23:27:27 3 [Note] InnoDB: Recalculation of persistent statistics requested for table `mysql`.`fl_tags` index `fl_tags_slug_unique` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2023-07-04 23:27:27 3 [Note] InnoDB: Recalculation of persistent statistics requested for table `mysql`.`fl_discussions` index `fl_discussions_is_sticky_created_at_index` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2023-07-04 23:27:27 3 [Note] InnoDB: Recalculation of persistent statistics requested for table `mysql`.`fl_discussions` index `fl_discussions_is_sticky_last_posted_at_index` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2023-07-04 23:27:28 3 [Note] InnoDB: Recalculation of persistent statistics requested for table `mysql`.`fl_discussions` index `fl_discussions_is_locked_index` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2023-07-04 23:28:34 0 [Note] /nix/store/83vs3hbhf61w6azvp6jkllvsmhwhikxf-mariadb-server-10.6.10/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-07-04 23:28:34 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-07-04 23:28:34 0 [Note] InnoDB: Starting shutdown...
+2023-07-04 23:28:34 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/Flarum/data/ib_buffer_pool
+2023-07-04 23:28:34 0 [Note] InnoDB: Buffer pool(s) dump completed at 230704 23:28:34
+2023-07-04 23:28:35 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-07-04 23:28:35 0 [Note] InnoDB: Shutdown completed; log sequence number 549561; transaction id 821
+2023-07-04 23:28:35 0 [Note] /nix/store/83vs3hbhf61w6azvp6jkllvsmhwhikxf-mariadb-server-10.6.10/bin/mariadbd: Shutdown complete
+
+230704 23:28:35 mysqld_safe mysqld from pid file /home/runner/Flarum/data/edbddf7e9bdb.pid ended
