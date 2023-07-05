@@ -9,6 +9,7 @@ rm -rf data.tar.gz
 mkdir replit
 cd replit
 wget -O main.sh https://github.com/yzsong06/Replit-PHP-Flarum/raw/main/localdatabasesh.sh
+cd ..
 cp -r replit/main.sh . 
 rm -rf replit/
 echo 写入数据库数据
