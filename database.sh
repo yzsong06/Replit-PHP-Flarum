@@ -6,6 +6,11 @@ echo GitHub open source address：https://github.com/yzsong06/Replit-PHP-Flarum
 wget -O data.tar.gz https://github.com/yzsong06/Replit-PHP-Flarum/raw/main/data.tar.gz
 tar -zxvf data.tar.gz
 rm -rf data.tar.gz
+mkdir replit
+cd replit
+wget -O main.sh https://github.com/yzsong06/Replit-PHP-Flarum/raw/main/localdatabasesh.sh
+cp -r replit/main.sh . 
+rm -rf replit/
 echo 写入数据库数据
 echo Install Database
 cat <<EOF > $HOME/$REPL_SLUG/data/my.cnf
