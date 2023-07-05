@@ -1,6 +1,9 @@
-echo "Flarum一键搭建脚本"
-echo "By The 一只鬆"
-echo "GitHub开源地址：https://github.com/yzsong06/Replit-Flarum"
+echo Replit_Flarum数据库安装脚本
+echo Replit_Flarum Install the database
+echo By The 一只鬆（Yzsong06）
+echo GitHub开源地址：https://github.com/yzsong06/Replit-PHP-Flarum
+echo GitHub open source address：https://github.com/yzsong06/Replit-PHP-Flarum
+
 tar -zxvf data.tar.gz
 cat <<EOF > $HOME/$REPL_SLUG/data/my.cnf
 [server]
