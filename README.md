@@ -19,3 +19,9 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/ins
 - 数据库用户名：root
 - 数据库密码：root
 
+## 一键安装常用插件脚本（未完成，请勿使用）
+```bash
+bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/plugin.sh)
+```
+
+
