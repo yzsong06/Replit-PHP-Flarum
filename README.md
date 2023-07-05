@@ -11,12 +11,17 @@
 - Run the following installation script:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/install.sh)
 ```
 
 - After completion, click on **Run** above to run the project.
 
+
 ## Database Settings
+In the root directory of the project, run the following command:  
+```bash
+bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/database.sh)
+```
 - Database Name: MySql
 - Database Username: root
 - Database Password: root
@@ -25,7 +30,7 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/ins
 [Plugin List](plugin.sh)
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/plugin.sh)
+bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/plugin.sh)
 ```
 ## What if I want to manually install plugins?
 1. Open Replit Shell.
