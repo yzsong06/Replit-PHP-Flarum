@@ -35,6 +35,9 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main
 2. 输入 `cd public`
 3. 粘贴插件安装指令安装即可（Shell粘贴指令为Ctrl+Shift+V）
 
-## 待实现:
-- [ ] 连接远程数据库
+## 待办列表:
+- [x] 连接远程数据库（未测试）
 
+## 贡献者
+本仓库由一只鬆与青虹空雨联合维护！
+本项目部分灵感及脚本格式来自于舒夏的同功能项目：https://github.com/sxbai/flarum-on-replit
