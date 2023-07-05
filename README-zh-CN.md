@@ -5,16 +5,21 @@
 ------------------------------
 ## 使用说明
 - 在 Replit 中新建repo，环境选择 `Bash`
-- 不建议使用免费版部署，会泄漏数据库源文件
+- 不建议使用免费版部署，会泄漏数据库源文件（本地数据库模式）
 - 执行以下安装脚本
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/install.sh)
 ```
 
 - 完成后点击上方 **Run** 运行项目即可。
 
 ## 数据库设置
+在项目根目录下，执行以下指令:  
+该指令将会在项目内安装一个SQL数据库  
+```bash
+bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/database.sh)
+```
 - 数据库名称：MySql
 - 数据库用户名：root
 - 数据库密码：root
@@ -23,7 +28,7 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/ins
 [涉及插件列表](plugin.sh)
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/plugin.sh)
+bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/plugin.sh)
 ```
 ## 我想手动安装插件？
 1. 打开 Replit Shell
