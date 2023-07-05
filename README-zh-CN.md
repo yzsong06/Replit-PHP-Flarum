@@ -9,7 +9,7 @@
 - 执行以下安装脚本
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/replit.sh)
 ```
 
 - 完成后点击上方 **Run** 运行项目即可。
