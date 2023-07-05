@@ -17,4 +17,6 @@ innodb_temp_data_file_path=ibtmp1:1M:autoextend:max:8M
 lower_case_table_names=1
 EOF
 
-sh step2.sh
+export MYSQL_HOME=$HOME/$REPL_SLUG/data
+
+bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/install.sh)
