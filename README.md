@@ -19,6 +19,7 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main
 
 ## Database Settings
 In the root directory of the project, run the following command:  
+This command will install the SQL database locally  
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/database.sh)
 ```
