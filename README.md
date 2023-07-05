@@ -1,31 +1,36 @@
-<p align="center"><b>Flarum中文版</b>部署于Replit，️Flarum是一款基于PHP的优秀开源论坛程序</p>
+<p align="center">Deploying <b>Flarum</b>  on Replit
+<br/>(an open-source forum software based on PHP) </p>
 <br />
-<a href="https://www.takagi.icu">博客</a>
-<a href="https://docs.flarum.org/zh/">文档</a>
+<a href="/README-zh-CN.md">中文说明</a> | <a href="https://www.takagi.icu">Author's Blog</a> | <a href="https://docs.flarum.org/zh/">Flarum Documentation</a> 
+
 
 ------------------------------
-## 使用说明
-- replit环境选择`Bash`
-- 不建议使用免费版部署，会泄漏数据库源文件
+## Instructions
+- Create a new repo in Replit, select `Bash` as the environment.
+- It is not recommended to deploy with the free version, as it may expose your database source files.
+- Run the following installation script:
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/install.sh)
 ```
-- 执行上面脚本
-- 最后点击Run运行项目即可。
 
-## 数据库设置
-- 数据库名称：MySql
-- 数据库用户名：root
-- 数据库密码：root
+- After completion, click on **Run** above to run the project.
 
-## 一键安装常用插件脚本（共32个插件）
+## Database Settings
+- Database Name: MySql
+- Database Username: root
+- Database Password: root
+
+## One-Click Installation Script for Common Plugins
+[Plugin List](plugin.sh)
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/plugin.sh)
 ```
-## 我想手动安装插件？
-1. 打开Replit Shell
-2. 输入 `cd public`
-3. 粘贴插件指令安装即可（Shell粘贴指令为Ctrl+Shift+V）
+## What if I want to manually install plugins?
+1. Open Replit Shell.
+2. Enter `cd public`.
+3. Paste the plugin installation command to install (Ctrl+Shift+V to paste in Shell).
 
+## To-do list:
+- [ ] Connect to a remote database.
