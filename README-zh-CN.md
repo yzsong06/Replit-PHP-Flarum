@@ -32,7 +32,7 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main
 ```
 ## 我想手动安装插件？
 1. 打开 Replit Shell
-2. 输入 `cd public`
+2. 输入 `cd Flarum`
 3. 粘贴插件安装指令安装即可（Shell粘贴指令为Ctrl+Shift+V）
 
 ## 待办列表:
