@@ -18,5 +18,3 @@ lower_case_table_names=1
 EOF
 
 export MYSQL_HOME=$HOME/$REPL_SLUG/data
-
-bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/install.sh)
