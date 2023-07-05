@@ -11,7 +11,7 @@
 - Run the following installation script:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/replit.sh)
 ```
 
 - After completion, click on **Run** above to run the project.
