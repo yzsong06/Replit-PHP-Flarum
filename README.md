@@ -19,9 +19,13 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/ins
 - 数据库用户名：root
 - 数据库密码：root
 
-## 一键安装常用插件脚本（未完成，请勿使用）
+## 一键安装常用插件脚本（共32个插件）
+
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Flarum/main/plugin.sh)
 ```
-
+## 我想手动安装插件？
+1. 打开Replit Shell
+2. 输入 `cd public`
+3. 粘贴插件指令安装即可（Shell粘贴指令为Ctrl+Shift+V）
 
