@@ -7,7 +7,7 @@
 ------------------------------
 ## Instructions
 - Create a new repo in Replit, select `Bash` as the environment.
-- It is not recommended to deploy with the free version, as it may expose your database source files.
+- It is not recommended to deploy with the free version, as it may expose your database source files.（Local database schema）
 - Run the following installation script:
 
 ```bash
