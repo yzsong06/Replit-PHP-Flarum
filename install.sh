@@ -19,3 +19,4 @@ echo "恭喜搭建完成"
 echo "The setup is complete"
 echo "单击Run启动项目"
 echo "Click Run to start the project"
+cd ..
