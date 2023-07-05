@@ -10,3 +10,5 @@ innodb-log-file-size=8M
 innodb_temp_data_file_path=ibtmp1:1M:autoextend:max:8M
 lower_case_table_names=1
 EOF
+
+sh step2.sh
