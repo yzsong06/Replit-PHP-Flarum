@@ -17,6 +17,7 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main
 ```
 
 - 完成后，直接点击上方 **Run** 运行项目即可。
+- 连接远程数据库需要远程数据库支持https
 
 ## 安装本地数据库
 在项目根目录下，执行以下指令:  
@@ -27,6 +28,9 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main
 - 数据库名称：MySql
 - 数据库用户名：root
 - 数据库密码：root
+  
+注意:在部署本地数据库后，将无法链接远程数据库，若要连接远程数据库，请重新部署项目
+
 
 ## 常用插件一键安装脚本
 [涉及插件列表](plugin.sh)
@@ -43,7 +47,7 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main
 3. 粘贴插件安装指令安装即可（Shell粘贴指令为Ctrl+Shift+V）
 
 ## 待办列表:
-- [ ] 连接远程数据库
+- [ ] 完美连接远程数据库(目前仅在db4free数据库测试过远程连接)
 
 ## 贡献者
 本仓库由[一只鬆](https://github.com/yzsong06)与[轻虹空雨](https://github.com/mufeng086)共同维护。
