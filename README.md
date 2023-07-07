@@ -1,7 +1,10 @@
+<p align="center">
+    <a href="https://flarum.org/" target="_blank" rel="noopener noreferrer">
+        <img width="100" src="https://flarum.org/assets/img/logo.png" alt="flarum logo" />
+    </a>
 <p align="center">Deploying <b>Flarum</b>  on Replit
 <br/>(an open-source forum software based on PHP) </p>
-<br />
-<a href="/README-zh-CN.md">中文说明</a> | <a href="https://www.takagi.icu">Author's Blog</a> | <a href="https://docs.flarum.org/zh/">Flarum Documentation</a> 
+<p align="center"><a href="/README-zh-CN.md">中文说明</a> | <a href="https://www.takagi.icu">Author's Blog</a> | <a href="https://docs.flarum.org/zh/">Flarum Documentation</a> </p>
 
 
 ------------------------------
@@ -17,9 +20,9 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main
 - After completion, click on **Run** above to run the project.
 
 
-## Database Settings
+## Install Local Database
 In the root directory of the project, run the following command:  
-This command will install the SQL database locally  
+(This command will install the SQL database locally)  
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/database.sh)
 ```
@@ -33,10 +36,17 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-PHP-Flarum/main/plugin.sh)
 ```
+
+After installation, you can enable the plugins as needed in the Administration.
+
 ## What if I want to manually install plugins?
 1. Open Replit Shell.
 2. Enter `cd public`.
 3. Paste the plugin installation command to install (Ctrl+Shift+V to paste in Shell).
 
 ## To-do list:
-- [ ] Connect to a remote database.
+- [ ] Connect to remote database.
+
+## Contributors
+This repository is maintained by [@yzsong06](https://github.com/yzsong06) and [@MuFeng086](https://github.com/mufeng086).
+Some inspiration and script formats for this project are derived from a similar project by [@sxbai](https://github.com/sxbai): https://github.com/sxbai/flarum-on-replit

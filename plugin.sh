@@ -1,4 +1,5 @@
 cd Flarum
+composer require flarum-lang/chinese-simplified
 composer require askvortsov/flarum-auto-moderator
 composer require antoinefr/flarum-ext-bbcode-fa
 composer require fof/default-group
