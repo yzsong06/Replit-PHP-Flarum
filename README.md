@@ -4,7 +4,7 @@
     </a>
 <p align="center">Deploying <b>Flarum</b>  on Replit
 <br/>(an open-source forum software based on PHP) </p>
-<p align="center"><a href="/README-zh-CN.md">中文说明</a> | <a href="https://www.takagi.icu">Author's Blog</a> | <a href="https://docs.flarum.org/zh/">Flarum Documentation</a> </p>
+<p align="center"><a href="/README-zh-CN.md">中文说明</a> | <a href="https://www.sotkg.cn">Author's Blog</a> | <a href="https://docs.flarum.org/zh/">Flarum Documentation</a> </p>
 
 
 ------------------------------
