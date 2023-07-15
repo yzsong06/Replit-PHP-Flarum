@@ -4,7 +4,7 @@
     </a>
 </p>
 <p align="center">在Replit中部署<b>Flarum</b>（一款基于PHP的优秀开源论坛程序）</p>
-<p align="center"><a href="https://www.takagi.icu">作者博客</a> | <a href="https://docs.flarum.org/zh/">Flarum文档</a></p>
+<p align="center"><a href="https://www.sotkg.cn">作者博客</a> | <a href="https://docs.flarum.org/zh/">Flarum文档</a></p>
 
 ------------------------------
 ## 使用说明
